@@ -103,7 +103,8 @@ Smart-AI-Assistant/
       Add speech-to-text + text-to-speech
       
       Add multi-agent support
-
+**
+dashboard interface**
 
 ![image alt](https://github.com/Pooja-Pote18/Smart-AI-Assistant/blob/149da2ac080075940b49ac66964552fc2cbcbbe9/dashboard.PNG)
 
