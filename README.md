@@ -26,6 +26,7 @@ Smart-AI-Assistant/
 ├── static/
 
 │     └── script.js
+
       └── style.css
       
 ├── templates/
@@ -44,21 +45,23 @@ Smart-AI-Assistant/
 **🔧 Installation & Setup**
 1) Create Virtual Environment
   python -m venv venv
+
   source venv/bin/activate       # macOS/Linux
+  
   venv\Scripts\activate          # Windows
 
-2) Install Dependencies
+3) Install Dependencies
    pip install -r requirements.txt
 
-3) Add Your Google API Key
+4) Add Your Google API Key
   Create a .env file in the root folder:
   GOOGLE_API_KEY=your_api_key_here
 
-4) Running the App
+5) Running the App
 Start the Flask server:
   python app.py
 
-5) Server will run at:
+6) Server will run at:
   http://127.0.0.1:5000/
 
 **🧠 How It Works (Backend Flow)**
