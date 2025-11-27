@@ -31,7 +31,7 @@ Smart-AI-Assistant/
       
 ├── templates/
 
-│     └── index.html
+     └── index.html
 
 ├── app.py                                  # Flask main server
 
@@ -43,6 +43,7 @@ Smart-AI-Assistant/
 
 
 **🔧 Installation & Setup**
+
             1) Create Virtual Environment
                
                     python -m venv venv
@@ -65,6 +66,7 @@ Smart-AI-Assistant/
             5) Server will run at:
                     http://127.0.0.1:5000/
 
+
 **🧠 How It Works (Backend Flow)**
 
   -User sends message → /chat
@@ -80,10 +82,15 @@ Smart-AI-Assistant/
 **🧪 Technologies Used**
 
   Python
+  
   Flask
+  
   Google Generative AI (Gemini)
+  
   HTML/CSS (Frontend)
+  
   dotenv
+
 
 **🚀 Future Enhancements**
 
