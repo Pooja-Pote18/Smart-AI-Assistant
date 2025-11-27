@@ -25,11 +25,16 @@ Smart-AI-Assistant/
 ├── static/
 │     └── script.js
       └── style.css
+      
 ├── templates/
 │     └── index.html
+
 ├── app.py                # Flask main server
+
 ├── gemini_setup.py       # Gemini API setup & response function
+
 ├── requirements.txt      # Project dependencies
+
 └── .env                  # Your API key 
 
 
