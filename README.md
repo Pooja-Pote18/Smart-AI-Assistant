@@ -22,6 +22,7 @@ Uses .env file to securely store API keys.
 **🗂️ Project Structure**
 
 Smart-AI-Assistant/
+
 ├── static/
 
 │     └── script.js
