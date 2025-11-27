@@ -50,26 +50,30 @@ Smart-AI-Assistant/
   
   venv\Scripts\activate          # Windows
 
-3) Install Dependencies
+2) Install Dependencies
    pip install -r requirements.txt
 
-4) Add Your Google API Key
+3) Add Your Google API Key
   Create a .env file in the root folder:
   GOOGLE_API_KEY=your_api_key_here
 
-5) Running the App
+4) Running the App
 Start the Flask server:
   python app.py
 
-6) Server will run at:
+5) Server will run at:
   http://127.0.0.1:5000/
 
 **🧠 How It Works (Backend Flow)**
 
   -User sends message → /chat
+  
   -Flask calls get_gemini_response() from gemini_setup.py
+  
   -Gemini API returns response
+  
   -App stores history & returns JSON
+  
   -Feedback is optionally collected
 
 **🧪 Technologies Used**
