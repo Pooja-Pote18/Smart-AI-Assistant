@@ -33,36 +33,37 @@ Smart-AI-Assistant/
 
 │     └── index.html
 
-├── app.py                            # Flask main server
+├── app.py                                  # Flask main server
 
-├── gemini_setup.py                   # Gemini API setup & response function
+├── gemini_setup.py                         # Gemini API setup & response function
 
-├── requirements.txt                  # Project dependencies
+├── requirements.txt                        # Project dependencies
 
-└── .env                              # Your API key 
+└── .env                                    # Your API key 
 
 
 **🔧 Installation & Setup**
-1) Create Virtual Environment
-  python -m venv venv
-
-  source venv/bin/activate       # macOS/Linux
-  
-  venv\Scripts\activate          # Windows
-
-2) Install Dependencies
-   pip install -r requirements.txt
-
-3) Add Your Google API Key
-  Create a .env file in the root folder:
-  GOOGLE_API_KEY=your_api_key_here
-
-4) Running the App
-Start the Flask server:
-  python app.py
-
-5) Server will run at:
-  http://127.0.0.1:5000/
+            1) Create Virtual Environment
+               
+                    python -m venv venv
+                  
+                    source venv/bin/activate       # macOS/Linux
+                    
+                    venv\Scripts\activate          # Windows
+            
+            2) Install Dependencies
+                     pip install -r requirements.txt
+            
+            3) Add Your Google API Key
+                    Create a .env file in the root folder:
+                    GOOGLE_API_KEY=your_api_key_here
+            
+            4) Running the App
+                  Start the Flask server:
+                    python app.py
+            
+            5) Server will run at:
+                    http://127.0.0.1:5000/
 
 **🧠 How It Works (Backend Flow)**
 
@@ -87,9 +88,13 @@ Start the Flask server:
 **🚀 Future Enhancements**
 
 Add a full chat UI
+
 Add login/auth system
+
 Add database storage (MongoDB / Firebase)
+
 Add speech-to-text + text-to-speech
+
 Add multi-agent support
 
 
