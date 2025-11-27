@@ -105,5 +105,6 @@ Smart-AI-Assistant/
       Add multi-agent support
 
 
+![image alt](https://github.com/Pooja-Pote18/Smart-AI-Assistant/blob/149da2ac080075940b49ac66964552fc2cbcbbe9/dashboard.PNG)
 
-! [image alt] (https://github.com/Pooja-Pote18/Smart-AI-Assistant/blob/149da2ac080075940b49ac66964552fc2cbcbbe9/dashboard.PNG)
+
