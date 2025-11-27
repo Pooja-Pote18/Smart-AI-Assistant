@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart AI Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <h1>Smart AI Chatbot</h1>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="main-container">
+
+    <!-- LEFT SIDEBAR -->
+    <div class="sidebar">
+        <h2>Chat History</h2>
+
+        <!-- Search Bar -->
+        <input type="text" id="history-search" placeholder="Search chats...">
+
+        <!-- History List -->
+        <div id="history-list"></div>
+    </div>
+
+    <!-- MAIN CHAT AREA -->
+    <div class="chat-area">
+
+        <!-- Current Time -->
+        <div class="timestamp">
+            🕒 <span id="current-timestamp"></span>
+        </div>
+
+        <div id="chat-box"></div>
+
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Type your message..." required>
+            <button type="submit">Send</button>
+        </form>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
