@@ -23,10 +23,13 @@ Uses .env file to securely store API keys.
 
 Smart-AI-Assistant/
 ├── static/
+
 │     └── script.js
+
       └── style.css
       
 ├── templates/
+
 │     └── index.html
 
 ├── app.py                # Flask main server
