@@ -25,7 +25,7 @@ Smart-AI-Assistant/
 
 ├── static/
 
-│     └── script.js
+      └── script.js
 
       └── style.css
       
@@ -69,39 +69,39 @@ Smart-AI-Assistant/
 
 **🧠 How It Works (Backend Flow)**
 
-  -User sends message → /chat
-  
-  -Flask calls get_gemini_response() from gemini_setup.py
-  
-  -Gemini API returns response
-  
-  -App stores history & returns JSON
-  
-  -Feedback is optionally collected
+        -User sends message → /chat
+        
+        -Flask calls get_gemini_response() from gemini_setup.py
+        
+        -Gemini API returns response
+        
+        -App stores history & returns JSON
+        
+        -Feedback is optionally collected
 
 **🧪 Technologies Used**
 
-  Python
-  
-  Flask
-  
-  Google Generative AI (Gemini)
-  
-  HTML/CSS (Frontend)
-  
-  dotenv
+        Python
+        
+        Flask
+        
+        Google Generative AI (Gemini)
+        
+        HTML/CSS (Frontend)
+        
+        dotenv
 
 
 **🚀 Future Enhancements**
 
-Add a full chat UI
-
-Add login/auth system
-
-Add database storage (MongoDB / Firebase)
-
-Add speech-to-text + text-to-speech
-
-Add multi-agent support
+      Add a full chat UI
+      
+      Add login/auth system
+      
+      Add database storage (MongoDB / Firebase)
+      
+      Add speech-to-text + text-to-speech
+      
+      Add multi-agent support
 
 
